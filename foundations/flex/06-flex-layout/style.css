@@ -5,13 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-}
-
-.container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* gap: 125px; */
 }
 
 .header {
@@ -46,8 +41,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  flex-grow: 2;
-  height: 88vh;
+  flex: 1;
 }
 
 img {
